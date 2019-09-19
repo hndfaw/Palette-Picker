@@ -39,3 +39,13 @@ Then, you may go to `http://localhost:3001/` in your browser to view responses.
 
 ## Screenshots
 
+### Homepage
+
+<img width="1440" alt="Screen Shot 2019-09-18 at 7 14 48 PM" src="https://user-images.githubusercontent.com/45321668/65203726-6c0af200-da7b-11e9-8d41-597cff2b806b.png">
+
+### Selecting new palette
+
+<img width="1440" alt="Screen Shot 2019-09-18 at 7 15 00 PM" src="https://user-images.githubusercontent.com/45321668/65203774-952b8280-da7b-11e9-92d5-2cafe6e73666.png">
+
+
+
