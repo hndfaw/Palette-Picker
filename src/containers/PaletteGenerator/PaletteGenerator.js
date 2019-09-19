@@ -110,7 +110,7 @@ export class PaletteGenerator extends Component {
                     <section className="color color-5" style={{background: this.state.color_5}}>
                          <img className="lock" onClick={this.handleFrozen} id="4"  src={frozen[4] === 'Locked' ? locked : unlocked} alt="Lock"/>                    
                     </section>
-                    <input type="text" maxLength="35" value={this.state.paletteName} className="palette-name-input" placeholder="Plette name" onChange={this.handleOnChange}/>
+                    <input type="text" maxLength="35" value={this.state.paletteName} className="palette-name-input" placeholder="Palette name" onChange={this.handleOnChange}/>
 
                     <button className="gen-add-btn generate-btn" onClick={this.generatePalette} >Generate</button>
 
