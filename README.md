@@ -44,6 +44,8 @@ Then, you may go to `http://localhost:3001/` in your browser to view responses.
 <kbd>
 <img width="1440" alt="Screen Shot 2019-09-18 at 7 14 48 PM" src="https://user-images.githubusercontent.com/45321668/65203726-6c0af200-da7b-11e9-8d41-597cff2b806b.png">
 <kbd>
+  
+ </br>
 
 ### Selecting new palette
 
