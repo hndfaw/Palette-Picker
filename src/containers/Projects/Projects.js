@@ -51,8 +51,9 @@ export class Projects extends Component {
 
   generateProjects = () => {
     const  {projects, selectedProject}  = this.props;
+    console.log('hey projects', projects)
     
-    return projects.map((project, i) => {
+    if(projects) {return projects.map((project, i) => {
       const selectedstyle = (project.id === selectedProject) ? {background: '#385894'} : null;
       return (
         <div key={i} id={project.id} className="project-container">
@@ -60,7 +61,9 @@ export class Projects extends Component {
           <button onClick={this.handleDeleteProject} className="delete-project-btn">&#xd7;</button>
         </div>
       )
-    })
+    })} else {
+      return <p className="no-palletes">No projects are available. You can add one using the below form, then click on your new project to add a new palette.</p>
+    }
   }
   render() {
 
