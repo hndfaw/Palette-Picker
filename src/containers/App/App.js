@@ -71,12 +71,12 @@ export class App extends Component {
         <PaletteGenerator addAndUpdatePalette={this.addAndUpdatePalette}/>
         <Palettes handleFetchPalettes={this.handleFetchPalettes} />
         <Projects getUpdatedProject={this.getUpdatedProject} getPalettes={this.getPalettes}/>
-        {/* <Background 
+        <Background 
           color_1={colors[0]}
           color_2={colors[1]}
           color_3={colors[2]}
           color_4={colors[3]}
-          color_5={colors[4]} /> */}
+          color_5={colors[4]} />
       </div>
     );
   }
